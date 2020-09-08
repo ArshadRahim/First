@@ -5,7 +5,7 @@
 
 }
 #sec1{
-    background-image:url(dw.jpg);
+    background-image:url(images/dw.jpg);
     clip-path: polygon(100% 0%, 100% 83%, 50% 100%, 0% 83%, 0% 0%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,6 @@ cursor: pointer;}
     }
     .box2 i{
         padding: 25px 5px 15px 10px;
-        padding-top: ;
         font-size: 30px;
         color: #22c8fc;
         background: transparent;
@@ -231,7 +230,7 @@ cursor: pointer;}
                 .bgimg img{
                    
                     width: 100%;
-                    height: 400px;
+                    height: 410px;
                     background-position: no-repeat;
                     
                    
@@ -261,14 +260,6 @@ cursor: pointer;}
                     color: #22c8fc;
                 }
 
-                  .team-names{
-                     display: flex;
-                    padding: 2em;
-                    justify-content: space-between;
-                    
-                    z-index: 2;
-                     
-                       }
                     .myteam{
                         display: block;
                        
@@ -276,8 +267,8 @@ cursor: pointer;}
                         }
                     .myteam h1 {
                         position: absolute;
-                        top: -17em;
-                        left: 2.5em;
+                        top: -3.5em;
+                        left: 9em;
                         font-weight: normal;
                         color:#22C8FC;
                     }
@@ -287,6 +278,9 @@ cursor: pointer;}
                         
                     .team-names{
                         position: relative;
+                        display: flex;
+                        left: -12em;
+                        top: -28em;
 
                     }
 
@@ -309,6 +303,87 @@ cursor: pointer;}
                    color:#22C8FC;
                    display: block;
                }
+               .happy{
+                   position: relative;
+                   top: -18em;
+               }
+
+               .happy h1{
+                   font-size: 28px;
+                font-weight: normal;
+                color: #22C8FC;
+                background: rgb(240, 238, 238);
+                padding: 80px;
+                padding-bottom: 0px;
+               }
+               .happy span{
+                   color: black;
+                   font-weight: normal;
+               }
+               .happy-clients {
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                max-width: 100%;
+                background: rgb(240, 238, 238);
+                position: relative;
+                top: -18em;
+                padding: 60px;
+                
+
+               }
+               .happy-one img{
+                   width: 150px;
+                   height: 150px;
+                   position: absolute;
+                   left: 170px;
+                   top: 0px;
+                   clip-path: circle(40% at 50% 50%);
+                }
+               .happy-two img{
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                left: 170px;
+                top: 0px;
+                clip-path: circle(40% at 50% 50%);
+
+            }
+               .happy-clients h3 {
+                   text-align: center;
+                   padding-top: 10px;
+                   font-weight: normal;
+                   border: ghostwhite 2px;
+                   color: #22C8FC;
+               }
+               .happy-clients p{
+                   text-align: center;
+                   padding-top: 200px;
+                   font-size: 14px;
+                   
+               }
+               .happy-clients h2{
+                text-align: center;
+                font-weight: normal;
+                font-size: 14px;
+                
+               }
+               .happy-one{
+                   width: 70%;
+                   position: relative;
+                   right: -6em;
+                   border: rgb(192, 187, 187) 1px dotted;
+                   
+                   
+               }
+               .happy-two{
+                width: 70%;
+                position: relative;
+                right: -6em;
+                border: rgb(211, 205, 205) 1px dotted;
+            
+            }
+           
+               
                       
                   
        

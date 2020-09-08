@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+
+}
+#sec1{
+    background-image:url(images/dw.jpg);
+    clip-path: polygon(100% 0%, 100% 83%, 50% 100%, 0% 83%, 0% 0%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+}
+.heading
+{width: 100%; 
+height: 600px; 
+color: #22c8fc;
+    
+    
+
+}
+.heading h1 {font-family: 'Poppins', sans-serif;
+ font-size: 60px;
+ padding-top: 1em;
+ padding-left: 1em;
+}
+
+.mini{color: rgb(253, 252, 252);
+    font-weight: normal;
+    padding-right: 16px; 
+    font-size: 40px;
+}
+.heading p{margin-left: 3em;
+margin-bottom: 22px;
+color:white;
+font-size: 20px;
+text-decoration-style: bold;
+
+
+}
+  .about{
+    
+    
+    font-size: 32px;  
+    color:rgb(255, 253, 253);
+    margin-left: 63px;
+    margin-top: 39px; 
+    font-weight: 200;
+   
+}
+  .para1{font-size: 61px;
+    font-weight: lighter; 
+    font-family: 'Poppins', sans-serif;
+}
+  .btn1{background: transparent;
+color:rgb(253, 253, 253);
+
+    border-radius: 62px;
+    border-color: #22c8fc;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1.5em;
+
+}
+   .btn1:hover{background: #22c8fc;
+cursor: pointer;}
+
+    img{   
+    height: 729px;
+    width: 632px;
+    float:right;
+    position: relative;
+    top: -34em;
+}
+
+    .services{
+        width: 100%;
+        display: flex;
+        margin-top: 19em;  
+          gap: 3em;
+        margin-left: -6em;
+
+        
+    }
+
+    .my{
+        position: relative;
+        top: -6em;
+        left: 26em;
+        font-size: 27px;
+        width: 20%;
+        color: #22c8fc;
+    }
+      .my span{
+    color: black;
+   }
+     .second img{width: 100%;
+        height: auto;
+        margin-top: 47em;
+    }
+     .box1{
+        width: 33.33%;
+        padding: 25px;
+        border: grey,1px,solid;
+        box-shadow: 2px 2px 2px 2px rgb(192, 189, 189);
+    }   
+
+     .box2{
+        width: 33.33%;
+        padding: 25px;
+        border: grey,1px,solid;
+        box-shadow: 2px 2px 2px 2px rgb(192, 189, 189);
+    }
+     .box3{
+        width: 33.33%;
+        padding: 25px;
+        
+        border: grey,1px,solid;
+        box-shadow: 2px 2px 2px 2px rgb(192, 189, 189);
+    }
+
+    .box1 i{
+        padding: 25px 5px 15px 10px;
+        font-size: 30px;
+        color: #22c8fc;
+
+    }
+    .box2 i{
+        padding: 25px 5px 15px 10px;
+        font-size: 30px;
+        color: #22c8fc;
+        background: transparent;
+
+    }
+    .box3 i{
+        padding: 25px 5px 15px 10px;
+        font-size: 30px;
+        color: #22c8fc;
+
+    }
+
+     .second p{
+        font-size: 28px;
+        margin-left: 30em;
+        position: relative;
+        top: -29.8em;
+        color: #22c8fc;}
+
+     .second span{
+            color: black;
+        }
+
+     .line1{
+            width: 420px;
+            height: 5px;
+            background-color: #22c8fc;
+            font-size: 340px;
+            position: relative;
+            left: 2.5em;
+            top: -2.2em;
+        }
+    
+     .line2{
+                width: 390px;
+                height: 5px;
+                background-color: crimson;
+                font-size: 340px;
+                position: relative;
+                left: 2.5em;
+                top: -2.1em;
+            }
+     .line3{
+                width: 360px;
+                height: 5px;
+                background-color: #22c8fc;
+                font-size: 340px;
+                position: relative;
+                left: 2.5em;
+                top: -2em;
+            }
+     .line4{
+                width: 330px;
+                height: 5px;
+                background-color: darkblue;
+                font-size: 340px;
+                position: relative;
+                left: 2.5em;
+                top: -1.9em;
+            }
+     .line5{
+                width: 300px;
+                height: 5px;
+                background-color: #22c8fc;
+                font-size: 340px;
+                position: relative;
+                left: 2.5em;
+                top: -1.8em;
+            }
+     .skillslist{
+                font-size: 12px;
+                line-height: 39px;
+                font-size: 12px;
+                margin-left: 70.8em;
+                position: relative;
+                top: -67em;
+                }
+            .skillslist ul {
+                list-style: none;
+            }
+            .btn2{background: #22c8fc;
+                color:white;
+                border-radius: 62px;
+                border-color: #22c8fc;
+                padding: 14px 28px;
+                font-weight: bold;
+                font-size: 12px;
+                margin-left: 71em;
+                position: relative;
+                top: -64em;
+                 }
+
+            .btn2:hover{
+                background: #22c8fc;
+                color: blanchedalmond;
+                cursor: pointer;}
+
+                .bgimg img{
+                   
+                    width: 100%;
+                    height: 410px;
+                    background-position: no-repeat;
+                    
+                   
+                }
+
+                .icons-sec {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 10em;
+                    position: relative;
+                    top: -52em;
+                    text-align: center;
+
+                }
+                .icons-sec h3{
+                    padding-top: 32px;
+                    color: white;
+                    font-size: 27px;
+                    font-weight: normal;
+                }
+                .icons-sec p{
+                    color: white;
+                    padding-top: 2px;
+                }
+                i {
+                    font-size: 45px;
+                    color: #22c8fc;
+                }
+
+                    .myteam{
+                        display: block;
+                       
+                        
+                        }
+                    .myteam h1 {
+                        position: absolute;
+                        top: -3.5em;
+                        left: 9em;
+                        font-weight: normal;
+                        color:#22C8FC;
+                    }
+                    .myteam span{
+                        color: black;
+                    }
+                        
+                    .team-names{
+                        position: relative;
+                        display: flex;
+                        left: -12em;
+                        top: -28em;
+
+                    }
+
+                    .team-names div{
+                   display: block;
+                   text-align: center;
+                   width: 22%;
+
+                     }
+                    .team-names img{
+                   width: 100%;
+                   height: 15rem;
+                   position: static;
+               }
+               .team-names h4{
+                   font-size: 20px;
+                   font-weight: normal;
+               }
+               .team-names p{
+                   color:#22C8FC;
+                   display: block;
+               }
+               .happy{
+                   position: relative;
+                   top: -18em;
+               }
+
+               .happy h1{
+                   font-size: 28px;
+                font-weight: normal;
+                color: #22C8FC;
+                background: rgb(240, 238, 238);
+                padding: 80px;
+                padding-bottom: 0px;
+               }
+               .happy span{
+                   color: black;
+                   font-weight: normal;
+               }
+               .happy-clients {
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                max-width: 100%;
+                background: rgb(240, 238, 238);
+                position: relative;
+                top: -18em;
+                padding: 60px;
+                
+
+               }
+               .happy-one img{
+                   width: 150px;
+                   height: 150px;
+                   position: absolute;
+                   left: 170px;
+                   top: 0px;
+                   clip-path: circle(40% at 50% 50%);
+                }
+               .happy-two img{
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                left: 170px;
+                top: 0px;
+                clip-path: circle(40% at 50% 50%);
+
+            }
+               .happy-clients h3 {
+                   text-align: center;
+                   padding-top: 10px;
+                   font-weight: normal;
+                   border: ghostwhite 2px;
+                   color: #22C8FC;
+               }
+               .happy-clients p{
+                   text-align: center;
+                   padding-top: 200px;
+                   font-size: 14px;
+                   
+               }
+               .happy-clients h2{
+                text-align: center;
+                font-weight: normal;
+                font-size: 14px;
+                
+               }
+               .happy-one{
+                   width: 70%;
+                   position: relative;
+                   right: -6em;
+                   border: rgb(192, 187, 187) 1px dotted;
+                   
+                   
+               }
+               .happy-two{
+                width: 70%;
+                position: relative;
+                right: -6em;
+                border: rgb(211, 205, 205) 1px dotted;
+            
+            }
+           
+               
+                      
+                  
+       
+                            
+            
+
+
+
+        
+    
+    
+

@@ -68,7 +68,7 @@ color:rgb(253, 253, 253);
    .btn1:hover{background: #22c8fc;
 cursor: pointer;}
 
-    img{   
+   .sec1 img{   
     height: 729px;
     width: 632px;
     float:right;
@@ -79,7 +79,7 @@ cursor: pointer;}
     .services{
         width: 100%;
         display: flex;
-        margin-top: 19em;  
+        margin-top: 18em;
           gap: 3em;
         margin-left: -6em;
 
@@ -99,7 +99,7 @@ cursor: pointer;}
    }
      .second img{width: 100%;
         height: auto;
-        margin-top: 47em;
+        margin-top: 9em;
     }
      .box1{
         width: 33.33%;
@@ -144,72 +144,33 @@ cursor: pointer;}
 
      .second p{
         font-size: 28px;
-        margin-left: 30em;
+        margin-left: 30.2em;
         position: relative;
-        top: -29.8em;
+        top: -14.8em;
         color: #22c8fc;}
 
      .second span{
             color: black;
         }
 
-     .line1{
-            width: 420px;
-            height: 5px;
-            background-color: #22c8fc;
-            font-size: 340px;
-            position: relative;
-            left: 2.5em;
-            top: -2.2em;
-        }
-    
-     .line2{
-                width: 390px;
-                height: 5px;
-                background-color: crimson;
-                font-size: 340px;
-                position: relative;
-                left: 2.5em;
-                top: -2.1em;
-            }
-     .line3{
-                width: 360px;
-                height: 5px;
-                background-color: #22c8fc;
-                font-size: 340px;
-                position: relative;
-                left: 2.5em;
-                top: -2em;
-            }
-     .line4{
-                width: 330px;
-                height: 5px;
-                background-color: darkblue;
-                font-size: 340px;
-                position: relative;
-                left: 2.5em;
-                top: -1.9em;
-            }
-     .line5{
-                width: 300px;
-                height: 5px;
-                background-color: #22c8fc;
-                font-size: 340px;
-                position: relative;
-                left: 2.5em;
-                top: -1.8em;
-            }
      .skillslist{
                 font-size: 12px;
                 line-height: 39px;
                 font-size: 12px;
                 margin-left: 70.8em;
                 position: relative;
-                top: -67em;
+                top: -33em;
+               
                 }
             .skillslist ul {
                 list-style: none;
             }
+            .skillslist progress{
+                display: block;
+                margin-top: -14px;
+                width: 400px;
+            }
+
             .btn2{background: #22c8fc;
                 color:white;
                 border-radius: 62px;
@@ -219,7 +180,7 @@ cursor: pointer;}
                 font-size: 12px;
                 margin-left: 71em;
                 position: relative;
-                top: -64em;
+                top: -29.5em;
                  }
 
             .btn2:hover{
@@ -232,7 +193,8 @@ cursor: pointer;}
                     width: 100%;
                     height: 410px;
                     background-position: no-repeat;
-                    
+                    position: relative;
+                    top: -19em;
                    
                 }
 
@@ -241,7 +203,7 @@ cursor: pointer;}
                     justify-content: space-between;
                     padding: 0 10em;
                     position: relative;
-                    top: -52em;
+                    top: -35em;
                     text-align: center;
 
                 }
@@ -266,34 +228,35 @@ cursor: pointer;}
                         
                         }
                     .myteam h1 {
-                        position: absolute;
-                        top: -3.5em;
-                        left: 9em;
-                        font-weight: normal;
-                        color:#22C8FC;
+                    position: absolute;
+                    top: -3.3em;
+                    left: 7em;
+                    font-weight: normal;
+                    color:#22C8FC;
                     }
                     .myteam span{
-                        color: black;
+                    color: black;
                     }
                         
                     .team-names{
-                        position: relative;
-                        display: flex;
-                        left: -12em;
-                        top: -28em;
-
-                    }
-
-                    .team-names div{
+                        width: 100%;
+                    position: relative;
+                    display: flex;
+                    left: -9.5em;
+                    top: -15em;
+                }
+                .team-names div{
                    display: block;
                    text-align: center;
                    width: 22%;
+                   justify-content: space-evenly;
 
                      }
                     .team-names img{
                    width: 100%;
                    height: 15rem;
                    position: static;
+                   clip-path: circle(40% at 50% 50%);
                }
                .team-names h4{
                    font-size: 20px;
@@ -303,96 +266,218 @@ cursor: pointer;}
                    color:#22C8FC;
                    display: block;
                }
-               .happy{
-                   position: relative;
-                   top: -18em;
-               }
+.happy{
+position: relative;
+top: -8em;
+}
 
-               .happy h1{
-                   font-size: 28px;
-                font-weight: normal;
-                color: #22C8FC;
-                background: rgb(240, 238, 238);
-                padding: 80px;
-                padding-bottom: 0px;
-               }
-               .happy span{
-                   color: black;
-                   font-weight: normal;
-               }
-               .happy-clients {
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-                max-width: 100%;
-                background: rgb(240, 238, 238);
-                position: relative;
-                top: -18em;
-                padding: 60px;
+.happy h1{
+font-size: 28px;
+font-weight: normal;
+color: #22C8FC;
+background: rgb(240, 238, 238);
+padding: 80px;
+
+}
+.happy span{
+color: black;
+font-weight: normal;
+}
+.happy-clients {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+max-width: 100%;
+background: rgb(238, 238, 238);
+position: relative;
+top: -11em;
+padding: 80px;
                 
 
-               }
-               .happy-one img{
-                   width: 150px;
-                   height: 150px;
-                   position: absolute;
-                   left: 170px;
-                   top: 0px;
-                   clip-path: circle(40% at 50% 50%);
-                }
-               .happy-two img{
-                width: 150px;
-                height: 150px;
-                position: absolute;
-                left: 170px;
-                top: 0px;
-                clip-path: circle(40% at 50% 50%);
+}
+.happy-one img{
+width: 150px;
+height: 150px;
+position: absolute;
+left: 170px;
+top: 0px;
+clip-path: circle(40% at 50% 50%);
+}
+.happy-two img{
+width: 150px;
+height: 150px;
+position: absolute;
+left: 170px;
+top: 0px;
+clip-path: circle(40% at 50% 50%);
 
-            }
-               .happy-clients h3 {
-                   text-align: center;
-                   padding-top: 10px;
-                   font-weight: normal;
-                   border: ghostwhite 2px;
-                   color: #22C8FC;
-               }
-               .happy-clients p{
-                   text-align: center;
-                   padding-top: 200px;
-                   font-size: 14px;
-                   
-               }
-               .happy-clients h2{
-                text-align: center;
-                font-weight: normal;
-                font-size: 14px;
-                
-               }
-               .happy-one{
-                   width: 70%;
-                   position: relative;
-                   right: -6em;
-                   border: rgb(192, 187, 187) 1px dotted;
-                   
-                   
-               }
-               .happy-two{
-                width: 70%;
-                position: relative;
-                right: -6em;
-                border: rgb(211, 205, 205) 1px dotted;
-            
-            }
-           
-               
-                      
-                  
-       
-                            
-            
-
-
-
-        
+}
+.happy-clients h3 {
+text-align: center;
+padding-top: 10px;
+font-weight: normal;
+border: ghostwhite 2px;
+color: #22C8FC;
+}
+.happy-clients p{
+text-align: center;
+padding-top: 200px;
+font-size: 14px;                  
+}
+.happy-clients h2{
+text-align: center;
+font-weight: normal;
+font-size: 14px;                
+}
+.happy-one{
+width: 70%;
+position: relative;
+right: -6em;
+border: rgb(192, 187, 187) 1px dotted;
+}
+.happy-two{
+width: 70%;
+position: relative;
+right: -6em;
+border: rgb(211, 205, 205) 1px dotted;
+}
+/*update section*/
+.latest{
+    margin-bottom: 10em;
+}.latest-news{
+    color: #22C8FC;
+    margin-bottom: 6em;
+}
+.latest-news h1{
+    font-weight: normal;
+    font-size: 28px;
+}
+.latest-news span{
+    color: black;
+    font-weight: normal;
+    font-size: 28px;
+}
+.update1-image{
+    float: left;
+    margin-left: 60px;
+}
+.update1-text{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background:#ededf1;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.update1-image img{
+    width: 300px;
+    height:300px;
+}
+.update1{
+    margin-left: 80px; 
+}
+.update1-text i{   
+    font-size: 14px;
+    display: inline;  
+} 
+.update1-text h1{
+    color: rgb(117 114 114);
+}
+.update1-text .myname{   
+    display: inline;
+    padding-left: 3px;
+    font-size: 14px;
     
+} 
+.update1-text p{   
+    font-size: 14px;
+    padding-top: 24px;
+    width: 230px;
+} 
+.fas.fa-calendar-alt{
+    padding-left: 8px;
+}
+.update1-text button{
+    padding-top: 15px;
+    border: none;
+    font-weight: 700;
+    color: #35AAFD;
+    font-size: 14px;
+    margin-top: 34px;
+}
+/*update2*/
+.update2-image{
+    float: left;
+    margin-left: 34px;
+}
+.update2-text{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background:#ededf1;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.update2-image img{
+    width: 300px;
+    height:300px;
+}
+.update2{
+    margin-left: 80px; 
+}
+.update2-text i{   
+    font-size: 14px;
+    display: inline;  
+} 
+.update2-text h1{
+    color: rgb(117 114 114);
+}
+.update2-text .myname{   
+    display: inline;
+    padding-left: 3px;
+    font-size: 14px;
     
+} 
+.myname2{
+    display: inline;
+}
+.update2-text p{   
+    font-size: 14px;
+    padding-top: 24px;
+    width: 230px;
+} 
+.fas.fa-calendar-alt{
+    padding-left: 8px;
+}
+.update2-text button{
+    padding-top: 15px;
+    border: none;
+    font-weight: 700;
+    color: #35AAFD;
+    font-size: 14px;
+    margin-top: 34px;
+
+}
+
+.footer{
+    display: flex;
+    padding: 6em 0 6em 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 30em;
+    background: rgb(22, 21, 78);
+    
+}
+.footer i{
+    padding: 1em;
+    color: #22c8fc;
+    
+}
+.py-3{
+    text-align: center;
+    color: white;
+}
 
